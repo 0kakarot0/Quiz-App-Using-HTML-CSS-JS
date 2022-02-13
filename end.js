@@ -24,6 +24,9 @@ const score = {
     name:username.value
 };
 
+// Old URL
+// fetch('https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple')
+
 // push the new scores and username to highScore array
 highScores.push(score);
 // sort from highest to lowest

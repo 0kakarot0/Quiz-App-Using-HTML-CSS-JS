@@ -16,7 +16,11 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch('https://opentdb.com/api.php?amount=10&category=9&difficulty=easy&type=multiple')
+
+//Fetching data from the database
+    //  fetch('http://www.apimytest.com/')
+// using local json file
+fetch('Test.json')
 .then(res => {
   return res.json();
 })
